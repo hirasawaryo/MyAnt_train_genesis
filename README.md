@@ -1,4 +1,4 @@
-# Antロボット脚形状のベイズ最適化（Genesis 版）
+# Antロボット脚形状のベイズ最適化
 
 4本脚ロボット「Ant」の**脚の長さを変えると、歩行はどこまで速くなるのか**を調べるプログラムです。
 
@@ -7,8 +7,6 @@
 - **強化学習**: 物理シミュレータ [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) 上で、[rsl_rl](https://github.com/leggedrobotics/rsl_rl) の PPO を使って歩行を学習します。
 - **形状探索**: 学習は1回に数分かかるため、少ない試行回数で最適解を探せるベイズ最適化を使います。実装は [BoTorch](https://botorch.org/) です。
 - 重力は地球重力（9.81 m/s²）です。
-
-Isaac Lab で作った元のプロジェクト（MyAnt_train）を Genesis に移植したものです。報酬、観測、PPO の設定は元のプロジェクトに合わせています。
 
 ## 探索する変数
 
