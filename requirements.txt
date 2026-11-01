@@ -1,0 +1,10 @@
+genesis-world==1.4.5
+torch==2.15.0
+rsl-rl-lib==3.0.1
+tensordict==0.15.4
+botorch==0.18.1
+gpytorch==1.15.2
+numpy==2.4.6
+matplotlib==3.11.2
+imageio==2.38.1
+imageio-ffmpeg==0.7.0

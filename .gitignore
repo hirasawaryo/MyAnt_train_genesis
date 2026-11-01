@@ -1,0 +1,19 @@
+# Whitelist: ignore everything, then allow only the programs needed to run the search.
+/*
+
+!/.gitignore
+!/README.md
+
+# Bayesian optimization (BoTorch) entry point
+!/bayes_opt.py
+# Genesis environment / robot model
+!/ant_env.py
+!/ant_model.py
+# RL training and walking video (called from bayes_opt.py)
+!/train.py
+!/play.py
+
+# never commit caches even inside allowed paths
+__pycache__/
+*.py[cod]
+!/requirements.txt
