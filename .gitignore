@@ -12,6 +12,7 @@
 # RL training and walking video (called from bayes_opt.py)
 !/train.py
 !/play.py
+!/evaluate.py
 
 # never commit caches even inside allowed paths
 __pycache__/
